@@ -31,6 +31,9 @@ gem 'bootstrap-sass'
 # User authentication module
 gem 'devise'
 
+# For file upload
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 group :development, :test do
      gem 'sqlite3'
 end
