@@ -34,6 +34,9 @@ gem 'devise'
 # For file upload
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+# For S3 image storage
+gem 'aws-sdk', '~> 1.20.0'
+
 group :development, :test do
      gem 'sqlite3'
 end
